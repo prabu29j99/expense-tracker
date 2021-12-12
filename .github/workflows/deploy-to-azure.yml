@@ -9,7 +9,7 @@ jobs:
     name: "Deploy to Azure"
 
     steps:
-      - uses: action/checkout@v2
+      - uses: actions/checkout@v2
 
       - name: use node.js v14
         uses: actions/setup-node@v1
